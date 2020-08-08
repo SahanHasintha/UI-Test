@@ -1,0 +1,12 @@
+.Tweet-container{
+    background-image: url('./SHAPE.png');
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+    display: table;
+}
+
+.four-dots{
+    margin: 10px;
+}

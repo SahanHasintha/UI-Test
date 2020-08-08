@@ -1,0 +1,42 @@
+.container{
+    background-image: url('./14370277547_19f78ab2e3_k@1X.png') ;
+    max-height: 800px;
+    min-width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo2{
+    width: 100px;
+    height: 100px;
+}
+
+.box1{
+    padding-top: 30px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+ .logo1{
+    float: left;
+  }
