@@ -15,25 +15,25 @@ const Team = () => {
                
                 <div className="ui four column grid" style={{width:'60%', marginLeft:'auto', marginRight:'auto', marginTop:'150px'}}>
                     <div className="column">
-                        <img alt="image" className="ui small circular image" src={Person1} />
+                        <img alt="team-images" className="ui small circular image" src={Person1} />
                         <h4 style={{color:'white', fontSize:20}}>PATRICIA MEDINA</h4>
                         <p style={{color:'#00CCFF', marginTop:'-15px', textAlign:'left', fontFamily:'FontAwesome',marginLeft:'20px'}} >Senior Designer</p>
                         <p style={{color:'#CCD8DD', fontFamily:'FontAwesome'}}>Imperdiet nulla sem fringilla, purus enim amet, nascetur faucib</p>
                     </div>
                     <div className="column">
-                        <img alt="image" className="ui small circular image" src={Person2} />
+                        <img alt="team-images" className="ui small circular image" src={Person2} />
                         <h4 style={{color:'white', fontSize:20}}>PATRICIA MEDINA</h4>
                         <p style={{color:'#00CCFF', marginTop:'-15px', textAlign:'left', fontFamily:'FontAwesome',marginLeft:'20px'}} >Senior Designer</p>
                         <p style={{color:'#CCD8DD', fontFamily:'FontAwesome'}}>Imperdiet nulla sem fringilla, purus enim amet, nascetur faucib</p>
                     </div>
                     <div className="column">
-                        <img alt="image" className="ui small circular image" src={Person3} />
+                        <img alt="team-images" className="ui small circular image" src={Person3} />
                         <h4 style={{color:'white', fontSize:20}}>PATRICIA MEDINA</h4>
                         <p style={{color:'#00CCFF', marginTop:'-15px', textAlign:'left', fontFamily:'FontAwesome',marginLeft:'20px'}} >Senior Designer</p>
                         <p style={{color:'#CCD8DD', fontFamily:'MyriadPro-Regular'}}>Imperdiet nulla sem fringilla, purus enim amet, nascetur faucib</p>
                     </div>
                     <div className="column">
-                        <img alt="image" className="ui small circular image" src={Person4} />
+                        <img alt="team-images" className="ui small circular image" src={Person4} />
                         <h4 style={{color:'white', fontSize:20}}>PATRICIA MEDINA</h4>
                         <p style={{color:'#00CCFF', marginTop:'-15px', textAlign:'left', fontFamily:'FontAwesome',marginLeft:'20px'}} >Senior Designer</p>
                         <p style={{color:'#CCD8DD', fontFamily:'Lato-Regular'}}>Imperdiet nulla sem fringilla, purus enim amet, nascetur faucib</p>
@@ -41,7 +41,7 @@ const Team = () => {
                     
                 </div>
                 <div>
-                    <img alt="image" src={Triangle} style={{float:"right",marginTop:'165px'}}/>
+                    <img alt="team-images" src={Triangle} style={{float:"right",marginTop:'165px'}}/>
                 </div>
             </div>
             

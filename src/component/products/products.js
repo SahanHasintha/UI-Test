@@ -18,13 +18,13 @@ const products = () => {
             <PublicHeader headerPart01='OUR' headerPart02='WORK' headerPart01Color='#00CCFF' headerPart02Color='#F5B041'/>
             <div>
                 <div style={{display:'flex', justifyContent:'space-between'}}>
-                    <img src={image01} style={{maxWidth:'400px', maxHeight:'400px', margin:'10px'}}/>
-                    <img src={image02} style={{maxWidth:'400px', maxHeight:'400px', margin:'10px'}}/>
-                    <img src={image03} style={{maxWidth:'400px', maxHeight:'400px', margin:'10px'}}/>
+                    <img alt="" src={image01} style={{maxWidth:'400px', maxHeight:'400px', margin:'10px'}}/>
+                    <img alt="product-images" src={image02} style={{maxWidth:'400px', maxHeight:'400px', margin:'10px'}}/>
+                    <img alt="product-images" src={image03} style={{maxWidth:'400px', maxHeight:'400px', margin:'10px'}}/>
                 </div>
                 <div style={{display:'flex', justifyContent:'space-between'}}>
-                    <img src={image04} style={{width:'65%',  maxHeight:'350px', margin:'10px'}}/>
-                    <img src={image05} style={{maxWidth:'400px', maxHeight:'350px', margin:'10px'}}/>
+                    <img alt="product-images" src={image04} style={{width:'65%',  maxHeight:'350px', margin:'10px'}}/>
+                    <img alt="product-images" src={image05} style={{maxWidth:'400px', maxHeight:'350px', margin:'10px'}}/>
                 </div>
                 
             </div>
@@ -49,7 +49,7 @@ const products = () => {
                     <div className="column">
                         <div className="ui card">
                             <div className="image">
-                                <img src={image1} style={{width:'290px', height:'200px', justifyContent:'center'}}/>
+                                <img alt="product-images" src={image1} style={{width:'290px', height:'200px', justifyContent:'center'}}/>
                             </div>
                             <div className="content">
                                 <h4>OutField</h4>
@@ -60,7 +60,7 @@ const products = () => {
                     <div className="column">
                         <div className="ui card">
                             <div className="image">
-                                <img src={image2} style={{width:'290px', height:'200px'}}/>
+                                <img alt="product-images" src={image2} style={{width:'290px', height:'200px'}}/>
                             </div>
                             <div className="content">
                                 <h4>OutField</h4>
@@ -71,7 +71,7 @@ const products = () => {
                     <div className="column">
                         <div className="ui card">
                             <div className="image">
-                                <img src={image3} style={{width:'290px', height:'200px'}}/>
+                                <img alt="product-images" src={image3} style={{width:'290px', height:'200px'}}/>
                             </div>
                             <div className="content">
                                 <h4>OutField</h4>
@@ -87,7 +87,7 @@ const products = () => {
                     <div className="column">
                         <div className="ui card">
                             <div className="image">
-                                <img src={image4} style={{width:'290px', height:'200px', justifyContent:'center'}}/>
+                                <img alt="" src={image4} style={{width:'290px', height:'200px', justifyContent:'center'}}/>
                             </div>
                             <div className="content">
                                 <h4>OutField</h4>
@@ -98,7 +98,7 @@ const products = () => {
                     <div className="column">
                         <div className="ui card">
                             <div className="image">
-                                <img src={image5} style={{width:'290px', height:'200px'}}/>
+                                <img alt="" src={image5} style={{width:'290px', height:'200px'}}/>
                             </div>
                             <div className="content">
                                 <h4>OutField</h4>
@@ -109,7 +109,7 @@ const products = () => {
                     <div className="column">
                         <div className="ui card">
                             <div className="image">
-                                <img src={image6} style={{width:'290px', height:'200px'}}/>
+                                <img alt="" src={image6} style={{width:'290px', height:'200px'}}/>
                             </div>
                             <div className="content">
                                 <h4>OutField</h4>

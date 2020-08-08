@@ -13,10 +13,10 @@ const Testimony = () => {
         <div style={{width:'100%'}}>
             <PublicHeader headerPart01='OUR' headerPart02='TESTIMONIAL' headerPart01Color='#00CCFF' headerPart02Color='#F5B041'/>
             <div style={{display:'flex',justifyContent:'center'}} >
-                <img src={client2} alt='image' style={{margin:'25px'}} />
-                <img src={client4} alt='image' style={{margin:'25px'}} />
-                <img src={client5} alt='image' style={{margin:'25px'}} />
-                <img src={client6} alt='image' style={{margin:'25px'}} />
+                <img src={client2} alt='' style={{margin:'25px'}} />
+                <img src={client4} alt='' style={{margin:'25px'}} />
+                <img src={client5} alt='' style={{margin:'25px'}} />
+                <img src={client6} alt='' style={{margin:'25px'}} />
             </div>
             <div className="ui three column grid" style={{width:'75%', marginLeft:'auto', marginRight:'auto', marginTop:'50px', marginBottom:'50px'}}>
                 <div className="column" style={{backgroundColor:'#F2F2F1', width:'301px', height:'203px',paddingLeft:'10px', margin:'10px'}}>
@@ -27,7 +27,7 @@ const Testimony = () => {
                     <div class="ui link items">
                         <div class="item">
                             <div class="ui middle aligned Mini image">
-                            <img src={Layer}/>
+                            <img alt='' src={Layer}/>
                             </div>
                             <div class="content">
                             <div class="header" style={{color:'#2FB1E7', fontSize:'14px'}}>@Someone famous</div>
@@ -46,7 +46,7 @@ const Testimony = () => {
                     <div class="ui link items">
                         <div class="item">
                             <div class="ui middle aligned Mini image">
-                            <img src={Layer}/>
+                            <img alt='' src={Layer}/>
                             </div>
                             <div class="content">
                             <div class="header" style={{color:'#2FB1E7', fontSize:'14px'}}>@Someone famous</div>
@@ -65,7 +65,7 @@ const Testimony = () => {
                     <div class="ui link items">
                         <div class="item">
                             <div class="ui middle aligned Mini image">
-                            <img src={Layer}/>
+                            <img alt='' src={Layer}/>
                             </div>
                             <div class="content">
                             <div class="header" style={{color:'#2FB1E7', fontSize:'14px'}}>@Someone famous</div>
@@ -78,10 +78,10 @@ const Testimony = () => {
                 </div>
             </div> 
             <div style={{display:'flex', justifyContent:'center'}}>
-                    <img alt="image" className='four-dots' src={Shape3}/>
-                    <img alt="image" className='four-dots' src={Shape3Copy}/>
-                    <img alt="image" className='four-dots' src={Shape3}/>
-                    <img alt="image" className='four-dots' src={Shape3}/>
+                    <img alt="" className='four-dots' src={Shape3}/>
+                    <img alt="" className='four-dots' src={Shape3Copy}/>
+                    <img alt="" className='four-dots' src={Shape3}/>
+                    <img alt="" className='four-dots' src={Shape3}/>
                 </div>           
         </div>
     )

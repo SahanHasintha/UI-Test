@@ -9,7 +9,6 @@ const PublicHeader = ({headerPart01,headerPart02,headerPart01Color,headerPart02C
                 <tr>
                     <td>
                         <div>
-                            {/* <h3 style={{color:'#2FB1E7', fontSize:30, fontWeight:'bold'}} >{header}</h3> */}
                             <div style={{display:'flex', justifyContent:'center'}}>
                                 <p style={{fontSize:30, fontWeight:'bold', color:headerPart01Color}}>{headerPart01}</p>
                                 <p style={{fontSize:30, fontWeight:'bold', color:headerPart02Color, marginLeft:'10px'}}>{headerPart02}</p>
@@ -18,7 +17,7 @@ const PublicHeader = ({headerPart01,headerPart02,headerPart01Color,headerPart02C
                         </div>
                     </td>
                     <td>
-                        <img alt='image' src={CompositeLayer}/>
+                        <img alt='public' src={CompositeLayer}/>
                     </td>
                     <td>
                         <p style={{color:color, fontSize:16}}>Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean<br/>

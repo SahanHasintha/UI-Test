@@ -11,19 +11,19 @@ const About = () => {
             <PublicHeader headerPart01='ABOUT' headerPart02='US' headerPart01Color='#00CCFF' headerPart02Color='#F5B041'/>
             <div style={{marginLeft:'294px', marginTop:'100px'}} >
                 <div className="about-content">
-                    <img src={Shape2copy} alt='image'></img>
+                    <img  src={Shape2copy} alt='about-img'></img>
                     <p className="about-paragraph">Welcome</p>
                 </div>
                 <div className="about-content">
-                    <img src={Shape2} alt='image'></img>
+                    <img src={Shape2} alt='about-img'></img>
                     <p className="about-paragraph">Vision</p>
                 </div>
                 <div className="about-content">
-                    <img src={Shape2} alt='image'></img>
+                    <img src={Shape2} alt='about-img'></img>
                     <p className="about-paragraph">Mission</p>
                 </div>
                 <div className="about-content">
-                    <img src={Shape2} alt='image'></img>
+                    <img src={Shape2} alt='about-img'></img>
                     <p className="about-paragraph">Mission</p>
                 </div>
             </div>
@@ -34,7 +34,7 @@ const About = () => {
                         <div className="ui items">
                             <div className="item" style={{width:'450px', borderBottom:'1px solid #CCD8DD', paddingBottom:'10px'}}>
                                 <div className="ui tiny image">
-                                    <img src={Shape2C}/>
+                                    <img alt="about-img" src={Shape2C}/>
                                 </div>
                                 <div className="content">
                                     <div className="header">Arrowhead Valley Camp</div>
@@ -49,7 +49,7 @@ const About = () => {
                             </div>
                             <div className="item" style={{width:'450px', borderRight:'1px solid #CCD8DD'}}>
                                 <div className="ui tiny image">
-                                    <img src={Shape2C}/>
+                                    <img alt="about-img" src={Shape2C}/>
                                 </div>
                                 <div className="content">
                                     <div className="header">Arrowhead Valley Camp</div>
@@ -68,7 +68,7 @@ const About = () => {
                         <div className="ui items">
                             <div className="item" style={{width:'450px', borderLeft:'1px solid #CCD8DD', paddingLeft:'10px'}}>
                                 <div className="ui tiny image">
-                                    <img src={Shape2C}/>
+                                    <img alt="about-img" src={Shape2C}/>
                                 </div>
                                 <div className="content">
                                     <div className="header">Arrowhead Valley Camp</div>
@@ -84,7 +84,7 @@ const About = () => {
 
                             <div className="item" style={{width:'450px', borderTop:'1px solid #CCD8DD', paddingTop:'15px', paddingLeft:'5px'}}>
                                 <div className="ui tiny image">
-                                    <img src={Shape2C}/>
+                                    <img alt="about-img" src={Shape2C}/>
                                 </div>
                                 <div className="content">
                                     <div className="header">Arrowhead Valley Camp</div>

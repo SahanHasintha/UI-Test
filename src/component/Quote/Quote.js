@@ -11,11 +11,11 @@ const Quote = () => {
             <p style={{fontSize:'18px', color:'white', marginTop:'50px'}}>Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales,<br/> porttitor bibendum facilisi suspendiss  aliquam ipsum ante.</p>
             <p style={{fontSize:'18px', color:'white', marginTop:'50px'}}>Rudhi Sasmito - CEO Company</p>
             <div style={{display:'flex', justifyContent:'center'}}>
-                <img src={Shape3} alt="dot" style={{padding:'10px'}} />
-                <img src={Shape3Copy} alt="dot" style={{padding:'10px'}} />
-                <img src={Shape3} alt="dot" style={{padding:'10px'}} />
+                <img alt='quote-images' src={Shape3} alt="dot" style={{padding:'10px'}} />
+                <img alt='quote-images' src={Shape3Copy} alt="dot" style={{padding:'10px'}} />
+                <img alt='quote-images' src={Shape3} alt="dot" style={{padding:'10px'}} />
             </div>
-            <img src={Triangle} alt="Trangle" style={{float:'right', marginTop:'193px'}}/>
+            <img alt='quote-images' src={Triangle} alt="Trangle" style={{float:'right', marginTop:'193px'}}/>
        </div>
     )
 }

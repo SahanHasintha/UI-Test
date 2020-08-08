@@ -12,10 +12,10 @@ const Tweet = () => {
                 <i className="twitter icon" style={{color:'#2FB1E7', fontSize:'100px', }}></i>
                 <p style={{marginTop:'50px', color:'white', fontSize:18}}>Premium Template - orci in adipiscing felis velit nibh. Consectetuer porttitor feugiat vestibulum sit feugiat,<br/> voluptates dui eros libero...</p>
                 <div style={{display:'flex', justifyContent:'center'}}>
-                    <img alt="image" className='four-dots' src={Shape3}/>
-                    <img alt="image" className='four-dots' src={Shape3Copy}/>
-                    <img alt="image" className='four-dots' src={Shape3}/>
-                    <img alt="image" className='four-dots' src={Shape3}/>
+                    <img alt="tweet-images" className='four-dots' src={Shape3}/>
+                    <img alt="tweet-images" className='four-dots' src={Shape3Copy}/>
+                    <img alt="tweet-images" className='four-dots' src={Shape3}/>
+                    <img alt="tweet-images" className='four-dots' src={Shape3}/>
                 </div>
                 <div style={{marginTop:'100px',display:'flex', justifyContent:'center', fontSize:22}}>
                     <p style={{color:'white'}}>Follow us on Twitter :</p>
@@ -24,7 +24,7 @@ const Tweet = () => {
             </div>
         </div>
         <div>
-            <img alt="image" src={Triangle} style={{float:"right",marginTop:'-152px'}}/>
+            <img alt="tweet-images" src={Triangle} style={{float:"right",marginTop:'-152px'}}/>
         </div>
         </div>
     )

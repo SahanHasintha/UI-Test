@@ -13,10 +13,10 @@ const Service = () => {
                             <div className="ui items" style={{width:'500px'}}>
                                 <div class="item">
                                     <div class="image">
-                                        <img alt='image' src={Shape}/>
+                                        <img alt='service-images' src={Shape}/>
                                     </div>
                                     <div class="content">
-                                        <a class="header" style={{fontSize:20, color:'#F4A936'}}>Brand Identity</a>
+                                        <a href="http://localhost:3000" class="header" style={{fontSize:20, color:'#F4A936'}}>Brand Identity</a>
                                         <div class="extra" style={{fontSize:20, }}>
                                             aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.
                                         </div>
@@ -28,42 +28,10 @@ const Service = () => {
                             <div className="ui items" style={{width:'500px'}}>
                                 <div class="item">
                                     <div class="image">
-                                        <img alt='image' src={Shape}/>
+                                        <img alt='service-images' src={Shape}/>
                                     </div>
                                     <div class="content">
-                                        <a class="header" style={{fontSize:20, color:'#F4A936'}}>UI/UX Design</a>
-                                        <div class="extra" style={{fontSize:20, }}>
-                                            aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div className="ui items" style={{width:'500px'}}>
-                                <div class="item">
-                                    <div class="image">
-                                        <img alt='image' src={Shape}/>
-                                    </div>
-                                    <div class="content">
-                                        <a class="header" style={{fontSize:20, color:'#F4A936'}}>Graphic Design</a>
-                                        <div class="extra" style={{fontSize:20, }}>
-                                            aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </td>
-                        <td>
-                            <div className="ui items" style={{width:'500px'}}>
-                                <div class="item">
-                                    <div class="image">
-                                        <img alt='image' src={Shape}/>
-                                    </div>
-                                    <div class="content">
-                                        <a class="header" style={{fontSize:20, color:'#F4A936'}}>Mobile Application</a>
+                                        <a href="http://localhost:3000" class="header" style={{fontSize:20, color:'#F4A936'}}>UI/UX Design</a>
                                         <div class="extra" style={{fontSize:20, }}>
                                             aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.
                                         </div>
@@ -77,10 +45,10 @@ const Service = () => {
                             <div className="ui items" style={{width:'500px'}}>
                                 <div class="item">
                                     <div class="image">
-                                        <img alt='image' src={Shape}/>
+                                        <img alt='service-images' src={Shape}/>
                                     </div>
                                     <div class="content">
-                                        <a class="header" style={{fontSize:20, color:'#F4A936'}}>Illustration</a>
+                                        <a href="http://localhost:3000" class="header" style={{fontSize:20, color:'#F4A936'}}>Graphic Design</a>
                                         <div class="extra" style={{fontSize:20, }}>
                                             aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.
                                         </div>
@@ -92,10 +60,42 @@ const Service = () => {
                             <div className="ui items" style={{width:'500px'}}>
                                 <div class="item">
                                     <div class="image">
-                                        <img alt='image' src={Shape}/>
+                                        <img alt='service-images' src={Shape}/>
                                     </div>
                                     <div class="content">
-                                        <a class="header" style={{fontSize:20, color:'#F4A936'}}>Videography</a>
+                                        <a href="http://localhost:3000" class="header" style={{fontSize:20, color:'#F4A936'}}>Mobile Application</a>
+                                        <div class="extra" style={{fontSize:20, }}>
+                                            aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div className="ui items" style={{width:'500px'}}>
+                                <div class="item">
+                                    <div class="image">
+                                        <img alt='service-images' src={Shape}/>
+                                    </div>
+                                    <div class="content">
+                                        <a href="http://localhost:3000" class="header" style={{fontSize:20, color:'#F4A936'}}>Illustration</a>
+                                        <div class="extra" style={{fontSize:20, }}>
+                                            aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div className="ui items" style={{width:'500px'}}>
+                                <div class="item">
+                                    <div class="image">
+                                        <img alt='service-images' src={Shape}/>
+                                    </div>
+                                    <div class="content">
+                                        <a href="http://localhost:3000" class="header" style={{fontSize:20, color:'#F4A936'}}>Videography</a>
                                         <div class="extra" style={{fontSize:20, }}>
                                             aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.
                                         </div>
@@ -115,7 +115,7 @@ const Service = () => {
                         <div style={{display:"flex", justifyContent:'center', paddingBottom:'100px',paddingTop:'100px'}}>
                                     <div className="ui card" style={{width:'240px', height:'266px', marginTop:'14px'}}>
                                         <div class="content">
-                                            <a class="header">
+                                            <a href="http://localhost:3000" class="header">
                                                 <i class="thumbs up outline icon" style={{fontSize:50, paddingTop:'50px', paddingBottom:'80px'}}></i>
                                                 </a>
                                             <div class="meta">
@@ -128,7 +128,7 @@ const Service = () => {
                                     </div>
                                     <div className="ui card" style={{width:'240px', height:'266px'}}>
                                         <div class="content">
-                                            <a class="header">
+                                            <a href="http://localhost:3000" class="header">
                                                 <i class="comments icon" style={{fontSize:50, paddingTop:'50px', paddingBottom:'80px'}}></i>
                                                 </a>
                                             <div class="meta">
@@ -141,7 +141,7 @@ const Service = () => {
                                     </div>
                                     <div className="ui card" style={{width:'240px', height:'266px'}}>
                                         <div class="content">
-                                            <a class="header">
+                                            <a href="http://localhost:3000" class="header">
                                                 <i class="smile outline icon" style={{fontSize:50, paddingTop:'50px', paddingBottom:'80px'}}></i>
                                                 </a>
                                             <div class="meta">
@@ -154,7 +154,7 @@ const Service = () => {
                                     </div>
                                     <div className="ui card" style={{width:'240px', height:'266px'}}>
                                         <div class="content">
-                                            <a class="header">
+                                            <a href="http://localhost:3000" class="header">
                                                 <i class="bookmark outline icon" style={{fontSize:50, paddingTop:'50px', paddingBottom:'80px'}}></i>
                                                 </a>
                                             <div class="meta">
